@@ -1,18 +1,37 @@
 /* styles.css */
+
 body {
   font-family: Arial, sans-serif;
+  margin: 0; /* con margin 0 y padding 0 elimina los margenes y el relleno predeterminado del elemento body, asi todo comienza desde el*/
+  padding: 0;
 }
 
-.genero-container {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f8f8f8;
+h1, h2 {
+  text-align: center;
 }
 
-h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+section {
+  padding: 20px; /* Con esto añade 20 px. a todas las secciones, asi creamos un espacio interno alrededor del coontenido de cada seccion*/
 }
 
+.movie-card { /* Esta es cada tarjeta de cada pelicula*/
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  display: inline-block; /* Cada tarjeta se copmarta como un bloque en linea asi varias tarjetas se alinean horizontalmente en una fila*/
+  vertical-align: top;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Añade una sombra alrededor de la tarjeta, con un desplazamiento vertical de 2 píxeles, un difuminado de 5 píxeles y un color negro semi-transparente (10% de opacidad). Esto proporciona un efecto de elevación. */
+  text-align: center;
+}
+
+.movie-card img { /* Esta es la imagen de cada pelicula*/
+  max-width: 100%; /* Hace que la imagen de la pelicula se ajuste al ancho maximo de la tarjeta*/
+  height: auto;
+}
+
+.movie-card h3 { /* Esto es para el titulo dentro de la tarjeta de cada pelicula*/
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
 
