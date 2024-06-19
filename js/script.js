@@ -45,3 +45,114 @@ peliculas.forEach(pelicula => {
   });
 });
 
+
+//CODIGO DE DATA, CLASE:
+
+// import peliculas from './peliculas.js'
+
+// // const actionMovies = peliculas.filter(pelicula => pelicula.genre_ids.includes(28))
+// // const thrillerMovies = peliculas.filter(pelicula => pelicula.genre_ids.includes(53))
+// // const adventuresMovies = peliculas.filter(pelicula => pelicula.genre_ids.includes(12))
+
+// // const action = document.getElementById("genero-28")
+// // const thriller = document.getElementById("genero-53")
+// // const adventures = document.getElementById("genero-12")
+
+// const mostrarPeliculas = (generoID, genero) => {
+//   const peliculasFiltradas = peliculas.filter(pelicula => pelicula.genre_ids.includes(generoID))
+//   const contenedor = document.getElementById(genero)
+  
+//   // for(let peli of peliculasFiltradas) {
+//   //   const urlBase = "https://image.tmdb.org/t/p/w500"
+//   //   const template = 
+//   //   `
+//   //   <div class="pelicula">
+//   //     <img src=${urlBase}${peli.poster_path} alt=${peli.title} />
+//   //     <h2>${peli.title}</h2>
+//   //   </div>
+//   //   `
+//   //   // contenedor.insertAdjacentHTML("beforeend", template)
+//   //   contenedor.innerHTML += template
+    
+    
+//     // const urlBase = "https://image.tmdb.org/t/p/w500"
+//     // const peliculaElement = document.createElement("div")
+//     // peliculaElement.classList.add("pelicula")
+  
+//     // const imgElement = document.createElement("img")
+//     // imgElement.src = `${urlBase}${peli.poster_path}`
+//     // imgElement.alt = peli.title
+    
+//     // const titleElement = document.createElement("h2")
+//     // titleElement.textContent = peli.title
+    
+//     // peliculaElement.appendChild(imgElement)
+//     // peliculaElement.appendChild(titleElement)
+    
+//     // contenedor.appendChild(peliculaElement)
+//   // }
+
+//   // peliculasFiltradas.forEach((peli) => {
+//   //   const urlBase = "https://image.tmdb.org/t/p/w500"
+//   //   const template = 
+//   //   `
+//   //   <div class="pelicula">
+//   //     <img src=${urlBase}${peli.poster_path} alt=${peli.title} />
+//   //     <h2>${peli.title}</h2>
+//   //   </div>
+//   //   `
+//   //   // contenedor.insertAdjacentHTML("beforeend", template)
+//   //   contenedor.innerHTML += template
+//   // })
+
+//   contenedor.innerHTML = peliculasFiltradas.map(peli => {
+//     const urlBase = "https://image.tmdb.org/t/p/w500"
+//     const template = 
+//     `
+//     <div class="pelicula">
+//       <img src=${urlBase}${peli.poster_path} alt=${peli.title} />
+//       <h2>${peli.title}</h2>
+//     </div>
+//     `
+//     return template
+    
+//   }).join("")
+// }
+
+
+// mostrarPeliculas(28, "genero-28")
+// mostrarPeliculas(53, "genero-53")
+// mostrarPeliculas(12, "genero-12")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // peliculas.forEach(peli => {
+// //   if(peli.genre_ids.includes(28) {
+
+// //   })
+// // })
+
